@@ -1,0 +1,163 @@
+/* Madefor Regular */
+@font-face {
+  font-family: Madefor;
+  src: url("../Fonts/WixMadeforText-Regular-BF63eaeef769319.ttf");
+  font-weight: normal;
+  font-style: normal
+}
+
+/* Madefor Bold */
+@font-face {
+  font-family: Madefor;
+  src: url("../Fonts/WixMadeforText-Bold-BF63eaeef739d09.ttf");
+  font-weight: bold;
+  font-style: normal
+}
+
+/* Madefor Header */
+@font-face {
+  font-family: MadeforDisplay;
+  src: url("../Fonts/WixMadeforDisplay-Bold-BF63eaeedaadb1a.ttf");
+  font-weight: normal;
+  font-style: normal
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin-right: 20px;
+  background: white;
+  height: 68px;
+  font-family: Madefor;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #20b965;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  left: auto
+}
+
+#donate {
+  background-color: rgb(0, 0, 41);
+  color: white;
+  border-radius: 20px;
+}
+
+#button, #donate {
+  padding: 12px 40px 12px 40px
+}
+
+#button:hover, #donate:hover{
+  opacity: 50%;
+  cursor: pointer
+}
+
+#logo {
+  max-width: 93px;
+  margin-left: 30px;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-45%);
+}
+
+#banner {
+  width: 100%
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: Madefor;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: MadeforDisplay;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #20b965;
+    font-family: MadeforDisplay;
+}
+
+hr {
+  background-color: #20b965;
+  height: 3px
+}
+
+.content {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: block
+}
+
+#About {
+  margin-bottom: 40px
+}
+
+.table {
+    align-items: center;
+    margin: auto;
+    overflow: scroll;
+    width: 90%
+}
+
+#myTable, th, td {
+    margin: 20px;
+    align-items: center;
+    font-size: 11px;
+    border: 1px solid;
+}
+
+#myTable {
+    border-collapse: collapse;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin: 30px;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #8fbfa7;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#20b965;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin: 30px;
+}
